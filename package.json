@@ -1,5 +1,5 @@
 {
-  "name": "node-js-getting-started",
+  "name": "js_basic_dns_server",
   "version": "0.3.0",
   "description": "A basic DNS Server",
   "engines": {
