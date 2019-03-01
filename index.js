@@ -1,5 +1,5 @@
-//const PORT = process.env.PORT || 5000;
-const PORT = 80;
+const PORT = process.env.PORT || 5000;
+//const PORT = 80;
 var dnsd = require('dnsd')
 dnsd.createServer(function(req, res) {
   console.log("HIT");
