@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 5000;
 var dnsd = require('dnsd')
 dnsd.createServer(function(req, res) {
   res.end('1.2.3.4')
